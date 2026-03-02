@@ -16,7 +16,7 @@ function Header() {
     <header className="header">
       <div className="header-content">
         <h1 className="logo">
-  <img className="logoIcon" src="/snapshot.png" alt="" aria-hidden="true" />
+  <img className="logoIcon" src="/react-app/snapshot.png" alt="" aria-hidden="true" />
   <span>Matthew Martinez</span>
 </h1>
         <button 
