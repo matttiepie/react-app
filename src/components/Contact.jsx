@@ -45,7 +45,7 @@ function Contact() {
                 <div className="contact-icon">📧</div>
                 <div>
                   <h4>Email</h4>
-                  <p>matthewmartinez676@gmail.com</p>
+                  <p>matthewmartinez676@yahoo.com</p>
                 </div>
               </div>
               <div className="contact-item">
