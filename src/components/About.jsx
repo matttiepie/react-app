@@ -9,16 +9,16 @@ function About() {
           <div className="about-text">
             <h3>Full Stack Developer & Problem Solver</h3>
             <p>
-              I'm a passionate full stack developer with a strong foundation in both frontend and backend technologies.
-              I love creating elegant solutions to complex problems and building applications that make a difference.
+              I'm a passionate full stack developer and veteran with a strong foundation in both frontend and backend technologies.
+              I love creating elegant solutions to complex problems, making a positive impact through technology, serving my community, and continuously learning and growing as a developer.
             </p>
             <p>
               With experience in modern web development frameworks and a keen eye for design, I strive to create
               seamless user experiences while maintaining clean, efficient code.
             </p>
-            <div className="about-stats">
+            {/* <div className="about-stats">
               <div className="stat">
-                <h4>5+</h4>
+                <h4>2+</h4>
                 <p>Years Experience</p>
               </div>
               <div className="stat">
@@ -29,7 +29,7 @@ function About() {
                 <h4>20+</h4>
                 <p>Happy Clients</p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="about-image">
             <div className="image-placeholder">

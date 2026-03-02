@@ -3,12 +3,7 @@
   background: white;
 }
 
-.contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
-}
+
 
 .contact-info h3 {
   font-size: 2rem;

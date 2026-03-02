@@ -26,7 +26,23 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin: 0;
+  left: 0;
 }
+
+.logoIcon {
+  width: 30px;      /* set small size */
+  height: 30px;
+  object-fit: cover; /* keeps aspect ratio/crops if needed */
+  border-radius: 50%; /* optional: makes it a circle */
+}
+
+.logo:hover .logoIcon,
+.logo:focus-within .logoIcon {
+  transform: scale(2.50);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  filter: saturate(1.1) contrast(1.05);
+}
+
 
 .menu-toggle {
   display: none;

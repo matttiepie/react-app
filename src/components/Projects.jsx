@@ -3,46 +3,22 @@ import './Projects.css';
 function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application with payment integration, user authentication, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: '#',
-      demo: '#'
+      title: 'ReaderPal',
+      description: 'Utilizing Android Studio and Kotlin in creating an app that utilizes Firebase for it’s user authentication and storage to allow multiple users to create an account and customize their own reading checklists to have as they pursue their reading endeavors and allows for users to view what other users have saved.',
+      technologies: ['Android Studio', 'Kotlin', 'Firebase'],
+      github: 'https://github.com/matttiepie/side-projects/tree/main/ReaderPal/Project2025',
     },
     {
-      title: 'Task Management App',
-      description: 'Real-time collaborative task management tool with drag-and-drop functionality and team collaboration features.',
-      technologies: ['React', 'Firebase', 'Material-UI'],
-      github: '#',
-      demo: '#'
+      title: 'Botanical Buddies',
+      description: 'Programmed the entire backend with a team in creating an e-commerce website that will actively access a database on the cloud using PHP to perform all the cart and product search functions and allowing for users to create an account and login to save their cart and checkout information for future purchases.',
+      technologies: ['PHP', 'MySQL', 'JS'],
+      github: 'https://github.com/matttiepie/pastProjects/tree/main/Botanical-Buddies',
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard displaying real-time weather data with beautiful visualizations and forecasts.',
-      technologies: ['React', 'OpenWeather API', 'Chart.js'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Social Media App',
-      description: 'Full-featured social media platform with posts, comments, likes, and real-time notifications.',
-      technologies: ['React', 'Express', 'PostgreSQL', 'Socket.io'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Portfolio CMS',
-      description: 'Content Management System for portfolio websites with drag-and-drop page builder and theme customization.',
-      technologies: ['React', 'Next.js', 'Tailwind CSS', 'Prisma'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'AI Chatbot',
-      description: 'Intelligent chatbot with natural language processing capabilities and context-aware responses.',
-      technologies: ['React', 'Python', 'OpenAI API', 'Flask'],
-      github: '#',
-      demo: '#'
+      title: 'Sirens Songs',
+      description: 'Website that utilizes Spotify API to create a personalized playlist along with Flask API and python backend for additional functionality and allowing users to save their playlists to their own personal accounts that they can create, log into, and manage themselves at any time, while also incorporating session tracking.',
+      technologies: ['Python', 'JS', 'MySQL', 'HTML/CSS'],
+      github: 'https://github.com/matttiepie/side-projects/tree/main/2024RowdyHacksUTSA',
     }
   ];
 
@@ -65,14 +41,6 @@ function Projects() {
               <div className="project-links">
                 <a href={project.github} className="project-link">
                   <span>GitHub</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                    <polyline points="15 3 21 3 21 9"></polyline>
-                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </a>
-                <a href={project.demo} className="project-link">
-                  <span>Live Demo</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                     <polyline points="15 3 21 3 21 9"></polyline>

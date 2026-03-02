@@ -3,36 +3,47 @@ import './Experience.css';
 function Experience() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Company Inc.',
-      period: '2022 - Present',
-      description: 'Leading development of scalable web applications using React, Node.js, and AWS. Mentoring junior developers and establishing best practices.',
+      title: 'Software Developer III',
+      company: 'Paycom',
+      period: 'June 2024 - Present',
+      description: 'Developing and maintaining SaaS using modern technologies to enhance user experience and streamline business processes, while collaborating with cross-functional teams.',
       achievements: [
-        'Improved application performance by 40%',
-        'Led a team of 5 developers',
-        'Implemented CI/CD pipelines'
+        'Lead developer on implementation of Logical Dependencies between new hire template fields, significantly enhancing the onboarding experience for both clients and employees by minimizing erros and incomplete setups, resulting in smoother and more efficient hiring process, resulting in a 15% reduction in errors and 10% increase in time-to-hire.',
+        'Served as key developer on the Gender and Biological Sex at Birth project, ensuring seamless implementation, thorough testing, and accurate storage and processing of sensitive data while prioritizing user privacy and adherence to relevant US laws and regulations for 100% of our US-based client portfolio.',
+        'Served as both Product Manager and Developer on the New Hire Improve REview Page Design, set the product strategy, prioritized the feature, and developed the solution to meet our customer needs.',
       ]
     },
     {
-      title: 'Full Stack Developer',
-      company: 'Digital Agency',
-      period: '2020 - 2022',
-      description: 'Developed custom web solutions for clients across various industries. Specialized in React, Express, and MongoDB stack.',
+      title: 'Engineering Intern',
+      company: 'Atkinson Aeronautics',
+      period: 'Jan 2024 - July 2024',
+      description: 'Developed and analyzed code/data along with other engineers to improve processes and products in the engineering department.',
       achievements: [
-        'Delivered 20+ client projects',
-        'Reduced deployment time by 60%',
-        'Maintained 99.9% uptime'
+        'Helped team house signal automation and process large signal bursts via data through state-of-the-art radios using C# and C++',
+        'Aided in the creation and development of the company website',
+        'Assisted in the structure of ADRS signal emitter prototype,'
+      ]
+    },
+        {
+      title: 'Computer Science Tutor',
+      company: 'The University of Texas at San Antonio',
+      period: 'July 2023 - May 2024',
+      description: 'Provided tutoring and academic support to students in computer science courses, helping them understand complex concepts and improve their coding skills.',
+      achievements: [
+        'Meet with approximately 150-200 students to clarify and review concepts taught in class, (ex. Data Structures, Application Programming, etc.), explain processes and help students solve specific problems',
+        'Collaborate with professors teaching Data Structures, Programming 1 and Programming II, in deciding the most effective methods of tutoring and assistance needed to better assist students in any way.',
+        'Organized study groups and review sessions to enhance collaborative learning'
       ]
     },
     {
-      title: 'Frontend Developer',
-      company: 'Startup Co.',
-      period: '2018 - 2020',
-      description: 'Built responsive and interactive user interfaces using modern JavaScript frameworks and libraries.',
+      title: 'S-6A: Leading Petty Officer',
+      company: 'US Navy',
+      period: 'July 2016 - July 2021',
+      description: 'Oversaw and managed Repairable Management Branch work center on USS Abraham Lincoln (CVN 72).',
       achievements: [
-        'Redesigned company website',
-        'Increased user engagement by 50%',
-        'Implemented accessibility standards'
+        'Successfully managed logistics and maintenance for over $10 million worth of equipment',
+        'Promoted to E-5 (Petty Officer Second Class) in 2019',
+        'Navy and Marine Corps Achievement Medal recipient for impeccable performance and effectively running and managing the Repairable Management Branch work center during 2019 world deployment while in a combat zone.'
       ]
     }
   ];

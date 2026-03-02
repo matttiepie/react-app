@@ -15,7 +15,10 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <h1 className="logo">Portfolio</h1>
+        <h1 className="logo">
+  <img className="logoIcon" src="/snapshot.png" alt="" aria-hidden="true" />
+  <span>Matthew Martinez</span>
+</h1>
         <button 
           className="menu-toggle"
           onClick={() => setIsMenuOpen(!isMenuOpen)}

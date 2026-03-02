@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Portfolio</h3>
-            <p>Full Stack Developer passionate about creating amazing web experiences.</p>
+            <p>Full Stack Developer and veteran passionate about creating amazing web experiences and leveraging technology to solve real-world problems.</p>
           </div>
           <div className="footer-section">
             <h4>Quick Links</h4>
@@ -23,10 +23,8 @@ function Footer() {
           <div className="footer-section">
             <h4>Connect</h4>
             <ul>
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Email</a></li>
+              <li><a href="https://github.com/matttiepie">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/matthew-martinez-397622133/">LinkedIn</a></li>
             </ul>
           </div>
         </div>

@@ -5,7 +5,7 @@ function Hero() {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1 className="hero-title">
-          Hi, I'm <span className="highlight">Your Name</span>
+          Hi, I'm <span className="highlight">Matthew Martinez</span>
         </h1>
         <h2 className="hero-subtitle">Full Stack Developer</h2>
         <p className="hero-description">
@@ -31,9 +31,9 @@ function Hero() {
         <div className="code-block">
           <pre>
             <code>{`const developer = {
-  name: "Full Stack Dev",
-  skills: ["React", "Node.js"],
-  passion: "Building Apps"
+  name: "Matthew Martinez",
+  Languages: ["HTML/CSS", "JavaScript", "Python", "SQL", "MVC", "C/C++/C#"],
+  Tools & Frameworks: ["Visual Studio", "Git", "GitHub", "React", "Docker"],
 };`}</code>
           </pre>
         </div>
