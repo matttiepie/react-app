@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Header.css';
+import snapshot  from '../assets/snapshot.png';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ function Header() {
     <header className="header">
       <div className="header-content">
         <h1 className="logo">
-  <img className="logoIcon" src="/react-app/snapshot.png" alt="" aria-hidden="true" />
+  <img className="logoIcon" src={snapshot} alt="" aria-hidden="true" />
   <span>Matthew Martinez</span>
 </h1>
         <button 
