@@ -8,7 +8,7 @@ function Experience() {
       period: 'June 2024 - Present',
       description: 'Developing and maintaining SaaS using modern technologies to enhance user experience and streamline business processes, while collaborating with cross-functional teams.',
       achievements: [
-        'Lead developer on implementation of Logical Dependencies between new hire template fields, significantly enhancing the onboarding experience for both clients and employees by minimizing erros and incomplete setups, resulting in smoother and more efficient hiring process, resulting in a 15% reduction in errors and 10% increase in time-to-hire.',
+        'Lead developer on implementation of Logical Dependencies for our onboarding team, significantly enhancing the onboarding experience for both clients and employees by minimizing errors and incomplete setups, resulting in smoother and more efficient hiring process, resulting in a 15% reduction in errors and 10% increase in time-to-hire.',
         'Served as key developer on the Gender and Biological Sex at Birth project, ensuring seamless implementation, thorough testing, and accurate storage and processing of sensitive data while prioritizing user privacy and adherence to relevant US laws and regulations for 100% of our US-based client portfolio.',
         'Served as both Product Manager and Developer on the New Hire Improve REview Page Design, set the product strategy, prioritized the feature, and developed the solution to meet our customer needs.',
       ]
